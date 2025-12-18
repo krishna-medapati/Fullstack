@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class JDBCCrud {
 
-    static String url = "jdbc:mysql://localhost:3306/testdb";
-    static String user = "appuser";
-    static String password = "apppassword";
+    static String url = "jdbc:mysql://localhost:3306/testdb?allowPublicKeyRetrieval=true&useSSL=false";
+    static String user = "root";
+    static String password = "Vanitas@41";
 
     public static void main(String[] args) {
 
